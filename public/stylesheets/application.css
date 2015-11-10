@@ -1,0 +1,65 @@
+html {
+  background: url("http://i.ytimg.com/vi/7zfsRsPUQkM/maxresdefault.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+div {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  width: 590px;
+  margin:0 auto;
+  padding: 5px;
+  opacity: 0.85;
+}
+
+* {
+  font-family: Arial;
+}
+
+form {
+  text-align: center;
+}
+
+p {
+  width: 475px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p a {
+  text-decoration: none;
+  color: #0000CC;
+}
+
+h1 {
+  color: white;
+  font-family: Arial;
+}
+
+body {
+  color: #2E5C8A;
+  background-color: transparent;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+.form-group {
+  text-align: left;
+  width: 50%;
+  margin-bottom: 0px;
+}
+
+.signup {
+  text-align: center;
+}
