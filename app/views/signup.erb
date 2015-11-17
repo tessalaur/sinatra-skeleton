@@ -15,49 +15,49 @@
       <div class="form-group">
 
         <label for="firstnamesignup">First name</label>
-        <input type="text" class="form-control" id="firstnamesignup" placeholder="First name" required>
+        <input type="text" class="form-control" id="firstnamesignup" placeholder="First name" required name="firstname">
 
       </div>
 
       <div class="form-group">
 
         <label for="lastnamesignup">Last name</label>
-        <input type="text" class="form-control" id="lastnamesignup" placeholder="Last name" required>
+        <input type="text" class="form-control" id="lastnamesignup" placeholder="Last name" required name="lastname">
 
       </div>
 
       <div class="form-group">
 
         <label for="emailsignup">Email address</label>
-        <input type="email" class="form-control" id="emailsignup" placeholder="Email" required>
+        <input type="email" class="form-control" id="emailsignup" name="username" placeholder="Email" required>
 
       </div>
 
       <div class="form-group">
 
         <label for="phonesignup">Phone number</label>
-        <input type="tel" class="form-control" id="phonesignup" placeholder="Phone number">
+        <input type="tel" class="form-control" id="phonesignup" name="phonenumber" placeholder="Phone number">
 
       </div>
 
       <div class="form-group">
 
         <label for="postalcodesignup">Postal code</label>
-        <input type="text" class="form-control" id="postalcodesignup" placeholder="Postal code" maxlength="7">
+        <input type="text" class="form-control" id="postalcodesignup" name="postalcode" placeholder="Postal code" maxlength="7">
 
       </div>
 
       <div class="form-group">
 
         <label for="orgsignup">Organization</label>
-        <input type="text" class="form-control" id="orgsignup" placeholder="Organization" required>
+        <input type="text" class="form-control" id="orgsignup" name="organization" placeholder="Organization" required>
 
       </div>
 
       <div class="form-group">
 
         <label for="experiencesignup">Experience</label>
-        <select class="for-control">
+        <select class="for-control" name="experience">
           <option>Novice recreational observer</option>
           <option>Experienced recreational observer</option>
           <option>Ecotourism professional</option>
@@ -71,7 +71,7 @@
       <div class="form-group">
 
         <label for="reasononwatersignup">Reason you're on the water</label>
-        <select class="for-control">
+        <select class="for-control" name="reasononwater">
           <option>Recreational</option>
           <option>Professional</option>
         </select>
@@ -87,7 +87,7 @@
       <div>
 
       <label class="checkbox-inline">
-      <input type="checkbox" id="springsignup" value="spring"> Spring
+      <input type="checkbox" id="springsignup" value="spring" name="seasonsonwater"> Spring
       </label>
       <label class="checkbox-inline">
       <input type="checkbox" id="summersignup" value="summer"> Summer
@@ -104,7 +104,7 @@
       <div class="form-group">
 
         <label for="howheardsignup">How did you hear about the Sightings Network?</label>
-        <select class="for-control">
+        <select class="for-control" name="howheard">
           <option>Wild Whales website</option>
           <option>Sightings Network poster</option>
           <option>Sightings Network brochure</option>
@@ -120,13 +120,19 @@
       <div class="form-group">
    
         <label for="passwordsignup">Password</label>
-        <input type="password" class="form-control" id="passwordsignup" placeholder="Password" required>
+        <input type="password" class="form-control" id="passwordsignup" placeholder="Password" required name="password">
   
       </div>
 
-        <button type="button" class="btn btn-primary">Save</button>
+        <input type="submit" value="Sign up" class="btn btn-primary">
 
       </form>
+
+      <br>
+
+      <p align="center">Already have an account? <a href="/login">Log in here</a>.</p>
+
+      <br>
 
       <br>
 
