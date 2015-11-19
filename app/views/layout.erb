@@ -20,6 +20,15 @@
   <title></title>
 </head>
 <body>
-  <%= yield %>
+<div class="top-bar">
+  <% if current_user %>
+  <h5>Hello, <%= current_user.username %></h5>
+    <a href="/logout"> Log out</a>
+  <% else %>
+    <a href="/login">Log in</a>
+  <% end %>
+  </div>
+  <%= yield %> 
+
 </body>
 </html>

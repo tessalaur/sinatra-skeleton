@@ -1,0 +1,124 @@
+<br>
+
+    <img src="/images/bccsnlogo.jpg">
+
+    <h1 align="center" color:"white">B.C. Cetacean Sightings Network</h1>
+
+    <br>
+
+    <div>
+
+    <br>
+
+    <h2 align="center">Sightings Report Form</h2>
+
+    <p>Please complete the following form to report your sighting. Questions? Give us a shout at 1.866.I.SAW.ONE or send us an <a href="mailto:sightings@vanaqua.org">email.</a></p>
+
+    <br>
+
+    </div>
+
+    <br>
+
+    <div class="form">
+
+    <br>
+
+      <form method="POST" action="/sightings/create">
+
+        <div class="form-group">
+
+          <label for="species">Species</label>
+
+        </div>
+
+        <div class="form-group">
+
+        <label class="checkbox-inline">
+        <input type="checkbox" id="killerwhale" value="killerwhale" name="species"> Killer whale
+        </label>
+        <br>
+        <label class="checkbox-inline">
+        <input type="checkbox" id="humpback" value="humpback" name="species"> Humpback whale
+        </label>
+        <br>
+        <label class="checkbox-inline">
+        <input type="checkbox" id="harbourporpoise" value="harbourporpoise" name="species"> Harbour porpoise
+        </label>
+        <br>
+        <label class="checkbox-inline">
+        <input type="checkbox" id="dallsporpoise" value="dallsporpoise" name="species"> Dall's porpoise
+        </label>
+        <br>
+        <label class="checkbox-inline">
+        <input type="checkbox" id="pwsd" value="pwsd" name="species"> Pacific white-sided dolphin
+        </label>
+        <br>
+        <label class="checkbox-inline">
+        <input type="checkbox" id="minke" value="minke" name="species"> Minke whale
+        </label>
+        <br>
+        <label class="checkbox-inline">
+        <input type="checkbox" id="greywhale" value="species" name="greywhale"> Grey whale
+        </label>
+        <br>
+        <label class="checkbox-inline">
+        <input type="checkbox" id="leatherback" value="leatherback" name="species"> Leatherback sea turtle
+        </label>
+
+        </div>
+
+        <br>
+
+        <div class="form-group">
+     
+          <label for="user_confidence">ID Confidence</label>
+        <select class="for-control" name="user_confidence">
+          <option>Certain</option>
+          <option>Probable</option>
+          <option>Possible</option>
+          <option>Uncertain</option>
+        </select>
+    
+        </div>
+
+        <br>
+
+        <div class="form-group">
+
+        <label for="location_desc">Location description</label>
+        <input type="text" class="form-control" id="location_desc" placeholder="e.g. Active Pass, off Galiano Island" required name="location_desc">
+
+        </div>
+
+        <br>
+
+        <div class="form-group">
+
+        <label for="animalnumber">Number of animals</label>
+        <input type="text" class="form-control" id="animalnumber" placeholder="e.g. approximately 10" required name="animalnumber">
+
+        </div>
+
+        <br>
+
+        <div class="form-group">
+
+        <label for="vessel">Vessel</label>
+        <input type="text" class="form-control" id="vessel" placeholder="e.g. sailboat" required name="vessel">
+
+        <br>
+
+        </div>
+
+          <input class="btn btn-primary" type="submit" value="Submit" />
+
+          <!-- <button type="button" class="btn btn-primary">Log In</button> -->
+
+      </form>
+
+      <br>
+
+    </div>
+
+  <br>

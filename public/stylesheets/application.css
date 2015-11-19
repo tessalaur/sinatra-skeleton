@@ -63,3 +63,25 @@ input {
 .signup {
   text-align: center;
 }
+
+.top-bar {
+  text-align: right;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 0px;
+  text-decoration: none;
+  color: #2E5C8A;
+  text-decoration: none;
+}
+
+.top-bar h5 {
+  margin-right: 15px;
+}
+
+.top-bar a {
+  text-align: right;
+  text-decoration: none;
+  color: #0000CC;
+  margin-right: 15px;
+}
